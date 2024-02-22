@@ -22,7 +22,8 @@ button {
 h2,
 p,
 label,
-li {
+li,
+span {
   color: rgba(230, 229, 234, 1);
 }
 
@@ -153,4 +154,49 @@ input[type="checkbox"]:checked {
   background-image: url(./assets/images/icon-check.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.strength-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 57px;
+  padding: 14px 16px 16px;
+  background-color: rgba(24, 23, 31, 1);
+  margin-top: 32px;
+}
+
+.strength-container #first-span {
+  font-size: 16px;
+
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(129, 125, 146, 1);
+}
+
+#strength-level-verbal {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.level-box {
+  display: flex;
+  gap: 8px;
+}
+
+.strength-level {
+  width: 10px;
+  height: 28px;
+  /* background: rgba(248, 205, 101, 1); */
+  border: 2px solid rgba(230, 229, 234, 1);
 }
