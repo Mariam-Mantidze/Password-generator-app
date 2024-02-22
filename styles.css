@@ -200,3 +200,19 @@ input[type="checkbox"]:checked {
   /* background: rgba(248, 205, 101, 1); */
   border: 2px solid rgba(230, 229, 234, 1);
 }
+
+#generate-btn {
+  width: 100%;
+  color: rgba(36, 35, 44, 1);
+  background-color: rgba(164, 255, 175, 1);
+  border: none;
+  padding: 18px 0px 17px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+}
+
+#arrow {
+  margin-left: 5px;
+}
