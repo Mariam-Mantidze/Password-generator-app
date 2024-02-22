@@ -211,6 +211,7 @@ input[type="checkbox"]:checked {
   font-weight: 700;
   line-height: 21px;
   text-align: center;
+  margin-top: 16px;
 }
 
 #arrow {
